@@ -2,8 +2,9 @@ package com.parthi.configserver_git;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
-@EnableCongigServer
+@EnableConfigServer
 @SpringBootApplication
 public class ConfigserverGitApplication {
 
