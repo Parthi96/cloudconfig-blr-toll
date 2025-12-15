@@ -1,6 +1,7 @@
 server:
   port: 8888
-
+encrypt:
+  key: my-secret-encryption-key
 spring:
   cloud:
     config:
@@ -9,3 +10,7 @@ spring:
           uri: https://github.com/Parthi96/cloudconfig-blr-toll
           search-paths:
             - "station*"
+  security:
+    user:
+      name: configuser
+      password: configpass
