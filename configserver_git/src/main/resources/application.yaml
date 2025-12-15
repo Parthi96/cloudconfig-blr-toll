@@ -6,6 +6,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/your-org/your-config-repo
+          uri: https://github.com/Parthi96/cloudconfig-blr-toll
           search-paths:
             - "station*"
